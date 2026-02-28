@@ -151,6 +151,123 @@ section {
     color: #4a5568;
 }
 
+.subtext {
+    font-size: 1rem;
+    color: #718096;
+    margin-top: 1rem;
+}
+
+.features {
+    font-size: 0.9rem;
+    color: #718096;
+    margin: 1rem 0;
+}
+
+.bundle {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 3rem;
+    border-radius: 12px;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.bundle h2 {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.bundle-desc {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 1.5rem;
+}
+
+.bundle-pricing {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+.regular-price {
+    text-decoration: line-through;
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.bundle-price {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.bundle-includes {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin: 1rem 0 2rem 0;
+}
+
+.btn-bundle {
+    background: white;
+    color: #667eea;
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+}
+
+.btn-bundle:hover {
+    background: #f7fafc;
+}
+
+.benefits {
+    margin: 4rem 0;
+}
+
+.benefit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.benefit {
+    text-align: center;
+}
+
+.benefit h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #2d3748;
+}
+
+.benefit p {
+    color: #4a5568;
+}
+
+.faq {
+    max-width: 800px;
+    margin: 4rem auto;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.faq-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.faq-item h3 {
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+}
+
+.faq-item p {
+    color: #4a5568;
+}
+
 footer {
     background: #1a202c;
     color: white;
