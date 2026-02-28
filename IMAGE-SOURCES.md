@@ -3,16 +3,16 @@
 ## Images Used (Unsplash - Free Commercial Use)
 
 ### 1. Roofing Contractors
-**Image:** https://images.unsplash.com/photo-1632778149955-e80f8ceca2e7?w=800&q=80
-**Photographer:** Raze Solar
-**Alt:** Professional roofers installing solar panels on residential roof
-**Why:** Real contractors working, professional equipment visible
+**Image:** https://images.pexels.com/photos/8293774/pexels-photo-8293774.jpeg
+**Source:** Pexels (Free to use, no attribution required)
+**Alt:** Professional roofer installing roof tiles on residential home
+**Why:** Real contractor on actual roof, working with tools and materials - authentic work scene
 
 ### 2. HVAC Contractors  
-**Image:** https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80
-**Photographer:** Getty Images via Unsplash
-**Alt:** HVAC technician servicing air conditioning unit
-**Why:** Professional technician with actual HVAC equipment
+**Image:** https://images.pexels.com/photos/5691608/pexels-photo-5691608.jpeg
+**Source:** Pexels (Free to use, no attribution required)
+**Alt:** HVAC technician servicing outdoor AC unit with tools
+**Why:** Professional technician working on real equipment outdoors - shows actual HVAC work
 
 ### 3. Dental Offices
 **Image:** https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80
