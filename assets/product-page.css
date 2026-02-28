@@ -1,0 +1,326 @@
+/* Product Landing Page Styles */
+
+.product-page {
+    background: var(--background);
+}
+
+.content-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Hero Section */
+.product-hero {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: var(--card-bg);
+    border-bottom: 1px solid var(--border);
+}
+
+.product-hero[data-industry="roofing"] {
+    background: linear-gradient(135deg, #C1440E15 0%, #C1440E05 100%);
+}
+
+.product-hero[data-industry="hvac"] {
+    background: linear-gradient(135deg, #1E40AF15 0%, #1E40AF05 100%);
+}
+
+.product-hero[data-industry="dental"] {
+    background: linear-gradient(135deg, #05966915 0%, #05966905 100%);
+}
+
+.product-hero[data-industry="law"] {
+    background: linear-gradient(135deg, #1E3A8A15 0%, #1E3A8A05 100%);
+}
+
+.product-hero[data-industry="realestate"] {
+    background: linear-gradient(135deg, #D9770615 0%, #D9770605 100%);
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+}
+
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 2rem 0 2.5rem 0;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin-top: 0.25rem;
+}
+
+.btn-large {
+    font-size: 1.1rem;
+    padding: 1rem 2.5rem;
+}
+
+.guarantee-text {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: var(--secondary);
+}
+
+/* Problem Section */
+.problem-section {
+    padding: 4rem 0;
+}
+
+.problem-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.problem-section > .content-container > p {
+    font-size: 1.1rem;
+    color: var(--secondary);
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.problem-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.problem-stat {
+    text-align: center;
+    padding: 2rem;
+    background: var(--card-bg);
+    border-radius: 8px;
+}
+
+.problem-stat h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+}
+
+.problem-stat p {
+    font-size: 0.95rem;
+    color: var(--secondary);
+}
+
+/* Solution Section */
+.solution-section {
+    padding: 4rem 0;
+    background: var(--card-bg);
+}
+
+.solution-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.solution-section > .content-container > p {
+    font-size: 1.1rem;
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    background: var(--background);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+.feature-card h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--primary);
+}
+
+.feature-card p {
+    font-size: 0.95rem;
+    color: var(--secondary);
+    line-height: 1.6;
+}
+
+/* Included Section */
+.included-section {
+    padding: 4rem 0;
+}
+
+.included-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.included-list {
+    max-width: 700px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.included-list li {
+    padding: 0.75rem 0;
+    padding-left: 2rem;
+    position: relative;
+    font-size: 1.05rem;
+    color: var(--primary);
+    border-bottom: 1px solid var(--border);
+}
+
+.included-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.included-list li:last-child {
+    border-bottom: none;
+}
+
+/* ROI Section */
+.roi-section {
+    padding: 4rem 0;
+    background: var(--card-bg);
+}
+
+.roi-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.roi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+}
+
+.roi-card {
+    background: var(--background);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid var(--border);
+}
+
+.roi-card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--secondary);
+    margin-bottom: 1rem;
+}
+
+.roi-number {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.roi-detail {
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.cta-section[data-industry="roofing"] {
+    background: linear-gradient(135deg, #C1440E15 0%, #C1440E05 100%);
+}
+
+.cta-section[data-industry="hvac"] {
+    background: linear-gradient(135deg, #1E40AF15 0%, #1E40AF05 100%);
+}
+
+.cta-section[data-industry="dental"] {
+    background: linear-gradient(135deg, #05966915 0%, #05966905 100%);
+}
+
+.cta-section[data-industry="law"] {
+    background: linear-gradient(135deg, #1E3A8A15 0%, #1E3A8A05 100%);
+}
+
+.cta-section[data-industry="realestate"] {
+    background: linear-gradient(135deg, #D9770615 0%, #D9770605 100%);
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.cta-section > .content-container > p {
+    font-size: 1.1rem;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 1.75rem;
+    }
+    
+    .hero-stats {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .problem-section h2,
+    .solution-section h2,
+    .included-section h2,
+    .roi-section h2,
+    .cta-section h2 {
+        font-size: 1.5rem;
+    }
+    
+    .features-grid,
+    .roi-grid {
+        grid-template-columns: 1fr;
+    }
+}
